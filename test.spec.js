@@ -16,7 +16,7 @@ describe("Test API", () => {
 		jest.setTimeout(10000);
 		var final = "";
 		const results = await axios
-			.get("http://192.168.2.244:3000/init")
+			.get("http://localhost:3000/init")
 			.then(function (response) {
 				console.log(response);
 				final = response.data;
