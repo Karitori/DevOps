@@ -6,7 +6,7 @@ app.get("/init", function (req, res) {
 });
 
 app.get("/init2", function (req, res) {
-	res.send("Working Perfectly Fine3 ^_^");
+	res.send("Working Perfectly Fine2 ^_^");
 });
 
 app.listen(3000, function () {
