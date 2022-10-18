@@ -9,6 +9,9 @@ app.get("/init", function (req, res) {
 app.get("/healthCheck", function (req, res) {
 	res.send(package.version);
 });
+app.get("/", function (req, res) {
+	res.send("Working As Expected ^_^");
+});
 
 
 app.listen(3000, function () {
