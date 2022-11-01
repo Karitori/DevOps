@@ -1,8 +1,8 @@
-const express = require("express")
-const pckage = require("./package.json")
+const express = require("express");
+const pckage = require("./package.json");
 
 
-const app = express()
+const app = express();
 
 app.get("/init", function (req, res) {
 	res.send("Working Perfectly Fine ^_^");

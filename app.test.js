@@ -1,5 +1,6 @@
-const request = require("supertest")
-const app = require("./app.js")
+const app = require("./app.js");
+const request = require("supertest");
+
 
 describe("total_test", () => {
 	test("Test Endpoint", async () => {
